@@ -1,0 +1,5 @@
+const satsolver = require('satsolver')
+console.log(satsolver.solve("tutorial.cnf"))
+console.log(satsolver.solve("simple0.cnf"))
+console.log(satsolver.solve("simple1.cnf"))
+console.log(satsolver.solve("simple2.cnf"))
